@@ -20,6 +20,6 @@ const client = new tmi.client(options)
 
 client.connect()
 
-client.on("connected"), (address, port) => {
+client.on("connected", (address, port) => {
     client.action('wjm_chatbot', "Hello, Joe's chatbot has connected")
-}
+})
