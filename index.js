@@ -12,5 +12,9 @@ const options = {
     identity: {
         username: "TestChabot",
         password: "oauth:2abwpv1gmb1ooash4fmgv7qm6hficb"
-    }
+    },
+    channels: ["wjm_chatbot"]
 }
+
+const client = new tmi.client(options)
+
